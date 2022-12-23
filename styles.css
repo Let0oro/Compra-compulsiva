@@ -180,7 +180,7 @@ blockquote {
   position: absolute;
   height: 60vh;
   font-size: .8em;
-  width: 110%;
+  width: 100%;
   /* bottom: 5%; */
   top: 2rem;
   padding: 2em 6em;
