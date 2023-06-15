@@ -46,6 +46,7 @@ main {
   font-family: Lobster;
   font-size: 4.5em;
   white-space: normal;
+  text-justify: distribute;
 }
 
 .subt {
@@ -148,6 +149,7 @@ blockquote {
   color: #999;
   overflow: hidden;
   transition: border .15s .15s;
+  margin-top: 2em;
 }
 
 .prevPage {
@@ -198,9 +200,29 @@ blockquote {
   font-size: 0.8em;
 }
 
+dd {
+  font-style: italic;
+}
+
+dt {
+  display: block;
+  margin: 1.5em 0 .75em 0;
+}
+
+dt a {
+  color: #88f;
+}
+
+dt > small {
+  display: block;
+  text-align: end;
+  color: #f88;
+  margin-block-start: .8em;
+}
+
 @media screen and (max-width: 780px) {
   html {
-    font-size: 0.7em;
+    font-size: 0.8em;
   }
   aside {
     padding: 1em;
@@ -212,7 +234,7 @@ blockquote {
 
 @media screen and (max-width: 480px) {
   html {
-    font-size: 0.5em;
+    font-size: 0.75em;
   }
   body {
     grid-template-columns: 1fr;
