@@ -209,8 +209,9 @@ dt {
   margin: 1.5em 0 .75em 0;
 }
 
-dt a {
+a {
   color: #88f;
+  text-decoration: none;
 }
 
 dt > small {
