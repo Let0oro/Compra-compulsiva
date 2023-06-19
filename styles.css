@@ -212,6 +212,11 @@ dt {
 a {
   color: #88f;
   text-decoration: none;
+  word-break: break-all;
+}
+
+a:visited {
+  color: #ccf;
 }
 
 dt > small {
