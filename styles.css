@@ -226,6 +226,10 @@ dt > small {
   margin-block-start: .8em;
 }
 
+h2 {
+  margin-top: 1.5em;
+}
+
 @media screen and (max-width: 780px) {
   html {
     font-size: 0.8em;
